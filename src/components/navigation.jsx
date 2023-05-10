@@ -1,6 +1,5 @@
-import link from "next/link"
-export default function navigation () {
+export default function navigation (props) {
     return (
-        (href= "./")
+        <a href></a>
     )
 }

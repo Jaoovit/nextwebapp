@@ -1,6 +1,10 @@
 import component from "../components/header"
 export default function home() {
     return(
-       <h1>Homepage</h1>
+        <div>
+            <h1>Homepage</h1>
+            <a href="./costumers">Costumers</a>
+            <a href="./products">Products</a>
+        </div>
     )
 }
