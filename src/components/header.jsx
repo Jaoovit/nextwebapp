@@ -1,7 +1,7 @@
-export default function header(props) {
+export default function Header(props) {
     return(
-        <header>
+        <Header>
             <h1>{props.title}</h1>
-        </header>
+        </Header>
     )
 }
