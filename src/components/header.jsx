@@ -1,7 +1,10 @@
+import Link from "next/link"
+
 export default function Header(props) {
     return(
-        <header>
+        <div>
             <h1>{props.title}</h1>
-        </header>
+            <Link href="/">Back</Link>
+        </div>
     )
 }

@@ -1,5 +1,9 @@
+import Link from "next/link"
+
 export default function navigation (props) {
     return(
-        <link href={props.navigation} passHref>Back</link>
+        <Link href={props.fate} passHref>
+        <div> {props.text}</div> 
+        </Link>
     )
 }

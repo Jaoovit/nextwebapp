@@ -1,9 +1,11 @@
-import Header from "../components/header"
+import Navigation from "../components/navigation"
 
 export default function home() {
     return(
         <div>
-            <Header title="Homepage" />
+            <h1>HomePage</h1>
+            <Navigation text= "Costumers" fate="/costumers"/>
+            <Navigation text= "Products" fate="/products"/>
         </div>
     )
 }
