@@ -1,6 +1,22 @@
-.backlink {
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.backbutton {
   display: flex;
   justify-content: flex-end;
-  padding: 5px 8px;
+  padding: 10px 20px;
+  background-color: #777;
+  border-radius: 8px;
+}
+
+.backbutton a {
+  background-color: crimson;
+  padding: 5px 12px;
   border-radius: 5px;
+  color: white;
+  text-decoration: none;
+
 }
