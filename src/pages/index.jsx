@@ -8,7 +8,7 @@ export default function home() {
             <Navigation text= "Costumers" fate="/costumers"/>
             <br></br>
             <Navigation text= "Products" fate="/products"/>
-            <Footer></Footer>
+            <Footer />
         </div>
     )
 }

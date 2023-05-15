@@ -5,7 +5,7 @@ export default function costumers () {
     return(
         <div>
             <Header title= "Costumers" />
-            <Footer></Footer>
+            <Footer />
         </div>
     )
 }

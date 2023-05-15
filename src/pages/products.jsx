@@ -5,7 +5,7 @@ export default function products() {
     return(
         <div>
             <Header title= "Products" />
-            <Footer></Footer>
+            <Footer />
         </div>
     )
 }
