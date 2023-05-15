@@ -1,4 +1,5 @@
 import Navigation from "../components/navigation"
+import Footer from "../components/footer"
 
 export default function home() {
     return(
@@ -7,6 +8,7 @@ export default function home() {
             <Navigation text= "Costumers" fate="/costumers"/>
             <br></br>
             <Navigation text= "Products" fate="/products"/>
+            <Footer></Footer>
         </div>
     )
 }
