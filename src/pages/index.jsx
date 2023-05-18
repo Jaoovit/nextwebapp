@@ -10,6 +10,8 @@ export default function home() {
             <Navigation text= "Products" fate="/products"/>
             <br></br>
             <Navigation text= "Clients" fate="/clients/123"/>
+            <br></br>
+            <Navigation text= "API" fate="integration"/>
             <Footer />
         </div>
     )
